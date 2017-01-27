@@ -1,0 +1,11 @@
+TextSearch
+==========
+
+TextSearch ECL code
+Initial version of attributes.
+
+Attributes structured as:
+Common:  Layouts, types, and other common definitions.
+Inverted: Attributes that define the inversion and related.
+Regression: Attributes that define regression tests.
+Resolved: Attributes that define the answer set.
