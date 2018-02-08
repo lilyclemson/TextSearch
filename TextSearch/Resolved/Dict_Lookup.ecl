@@ -36,7 +36,7 @@ Dict_Lookup(InfoBlock info, TermType typ, TermString term, KWMod kwm) := FUNCTIO
   BOOLEAN containsWildCardChar(UNICODE str) := BEGINC++
   #option pure
     bool answer = false;
-    for(int i=0; i < lenStr && !answer; i++) {
+    for(int i=0; i < (int)lenStr && !answer; i++) {
       if (str[i] == '?' || str[i] == '*') answer = true;
     }
     return answer;
